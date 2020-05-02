@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42C47584245E027400E049C8 /* FantasticView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasticView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C47584245E027400E049C8 /* CustomPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C47587245E027400E049C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42C47589245E027400E049C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		42C4758B245E027400E049C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		42C4757B245E027300E049C8 = {
 			isa = PBXGroup;
 			children = (
-				42C47586245E027400E049C8 /* FantasticView */,
+				42C47586245E027400E049C8 /* CustomPods */,
 				42C47585245E027400E049C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		42C47585245E027400E049C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42C47584245E027400E049C8 /* FantasticView.app */,
+				42C47584245E027400E049C8 /* CustomPods.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		42C47586245E027400E049C8 /* FantasticView */ = {
+		42C47586245E027400E049C8 /* CustomPods */ = {
 			isa = PBXGroup;
 			children = (
 				42C47587245E027400E049C8 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				42C47592245E027600E049C8 /* LaunchScreen.storyboard */,
 				42C47595245E027600E049C8 /* Info.plist */,
 			);
-			path = FantasticView;
+			path = CustomPods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42C47583245E027300E049C8 /* FantasticView */ = {
+		42C47583245E027300E049C8 /* CustomPods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42C47598245E027600E049C8 /* Build configuration list for PBXNativeTarget "FantasticView" */;
+			buildConfigurationList = 42C47598245E027600E049C8 /* Build configuration list for PBXNativeTarget "CustomPods" */;
 			buildPhases = (
 				42C47580245E027300E049C8 /* Sources */,
 				42C47581245E027300E049C8 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = FantasticView;
+			name = CustomPods;
 			productName = FantasticView;
-			productReference = 42C47584245E027400E049C8 /* FantasticView.app */;
+			productReference = 42C47584245E027400E049C8 /* CustomPods.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 42C4757F245E027300E049C8 /* Build configuration list for PBXProject "FantasticView" */;
+			buildConfigurationList = 42C4757F245E027300E049C8 /* Build configuration list for PBXProject "CustomPods" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42C47583245E027300E049C8 /* FantasticView */,
+				42C47583245E027300E049C8 /* CustomPods */,
 			);
 		};
 /* End PBXProject section */
@@ -295,8 +295,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = samarth.roots.FantasticView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = samarth.roots.CustomPods;
+				PRODUCT_NAME = CustomPods;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,8 +313,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = samarth.roots.FantasticView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = samarth.roots.CustomPods;
+				PRODUCT_NAME = CustomPods;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42C4757F245E027300E049C8 /* Build configuration list for PBXProject "FantasticView" */ = {
+		42C4757F245E027300E049C8 /* Build configuration list for PBXProject "CustomPods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42C47596245E027600E049C8 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42C47598245E027600E049C8 /* Build configuration list for PBXNativeTarget "FantasticView" */ = {
+		42C47598245E027600E049C8 /* Build configuration list for PBXNativeTarget "CustomPods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42C47599245E027600E049C8 /* Debug */,
