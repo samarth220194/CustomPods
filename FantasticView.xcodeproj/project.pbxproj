@@ -13,6 +13,7 @@
 		42C4758F245E027400E049C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C4758D245E027400E049C8 /* Main.storyboard */; };
 		42C47591245E027600E049C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C47590245E027600E049C8 /* Assets.xcassets */; };
 		42C47594245E027600E049C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C47592245E027600E049C8 /* LaunchScreen.storyboard */; };
+		42C4759C245E029500E049C8 /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C4759B245E029500E049C8 /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		42C47590245E027600E049C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42C47593245E027600E049C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42C47595245E027600E049C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C4759B245E029500E049C8 /* FantasticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				42C47587245E027400E049C8 /* AppDelegate.swift */,
 				42C47589245E027400E049C8 /* SceneDelegate.swift */,
 				42C4758B245E027400E049C8 /* ViewController.swift */,
+				42C4759B245E029500E049C8 /* FantasticView.swift */,
 				42C4758D245E027400E049C8 /* Main.storyboard */,
 				42C47590245E027600E049C8 /* Assets.xcassets */,
 				42C47592245E027600E049C8 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				42C4758C245E027400E049C8 /* ViewController.swift in Sources */,
 				42C47588245E027400E049C8 /* AppDelegate.swift in Sources */,
+				42C4759C245E029500E049C8 /* FantasticView.swift in Sources */,
 				42C4758A245E027400E049C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
