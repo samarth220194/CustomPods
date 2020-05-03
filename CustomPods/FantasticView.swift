@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class FantasticView : UIView {
+open class FantasticView : UIView {
     
     let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
     var colorCounter = 0
@@ -27,7 +27,7 @@ class FantasticView : UIView {
         scheduledColorChanged.fire()  //5
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         // You don't need to implement this
